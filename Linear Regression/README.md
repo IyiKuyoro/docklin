@@ -26,6 +26,8 @@ Applying gradient decent to compute &#x3b8;:
   &#x3b8;<sub>j</sub> := &#x3b8;<sub>j</sub> - &#x3b1; * 1/m * sum(h<sub>&#x3b8;</sub>(x<sup>(i)</sup>) - y<sup>(i)</sup>)* x<sub>j</sub><sup>(i)</sup>
 </strong>
 
-For the data set provided, we get the following values for &#x3b8;<sub>0</sub> and &#x3b8;<sub>1</sub> respectively: -3.87, 1.19. Therefore our best fit line will be
+For the data set provided, we get the following values for &#x3b8;<sub>0</sub> and &#x3b8;<sub>1</sub> respectively: -3.87, 1.19. Therefore our best fit line will be:
 
 ![plot showing best fit line](https://res.cloudinary.com/iyikuyoro/image/upload/c_scale,w_600/v1576102385/GitHub%20Readme%20Images/Screenshot_2019-12-11_at_23.03.36.png)
+
+We can then predict that for a city population of 70,000, the store is likely to make a profit of 44645.45.
