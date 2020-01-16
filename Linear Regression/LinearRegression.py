@@ -23,7 +23,7 @@ class SingleVariableLinearRegression:
                 else:
                     data_set = np.append(data_set, [[float(x), float(y)],], axis = 0)
 
-            return data_set
+        return data_set
 
     def _hOfX(self, theta):
         return self.X @ theta
